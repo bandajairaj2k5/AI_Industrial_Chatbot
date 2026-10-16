@@ -96,12 +96,24 @@ LOCAL_MAX_INPUT_TOKENS = 1536
 LOCAL_MAX_NEW_TOKENS = 100
 LOCAL_CPU_THREADS = 4
 
+__all__ = [
+    "IndustrialChatbot",
+    "EMBEDDING_MODEL",
+    "INDEX_PATH",
+    "METADATA_PATH",
+    "TOP_K",
+    "MAX_CONTEXT_CHARS",
+    "RELEVANCE_THRESHOLD",
+]
+
 
 # ============================================================
 # INDUSTRIAL CHATBOT
 # ============================================================
 
 class IndustrialChatbot:
+
+    RELEVANCE_THRESHOLD = RELEVANCE_THRESHOLD
 
     def __init__(self, backend=None):
 
