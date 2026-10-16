@@ -1,0 +1,194 @@
+[
+  {
+    "test_id": "TEST A",
+    "category": "Fully Supported (UAV System Architecture)",
+    "question": "What are the main components of a heavy-lift agricultural UAV?",
+    "expected_answerability": "Supported",
+    "rationale": "Directly documented in Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf (Table 3.1 & Section III).",
+    "answer": "Based on the provided document, the main components of a heavy-lift agricultural UAV are categorized into both high-level architectural elements and specific hardware materials.\n\nAt the system architecture level, the UAV relies on several key components to ensure safety and reliability, particularly when carrying heavy payloads or flying long distances. These include redundant flight control systems, backup power sources, advanced sensors for navigation and obstacle avoidance, and robust communication systems. These elements work in tandem to allow the UAV to operate effectively in challenging situations (Source: Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf, Page 3).\n\nThe specific hardware materials listed for this project include:\n*   A 2.5mm Galvanized Steel UAV frame\n*   Four Hobbywing X11 Plus 85kv 11118 motors\n*   Four 4313 reinforced Plastic foldable Propellers\n*   Four Hobbywing 120A Electronic Speed Controllers\n*   A Holybro Pixhawk 6X Autopilot H753 Flight Controller\n*   An M10 GPS Module\n\n(Source: Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf, Page 3, Table 3.1).",
+    "sources": [
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 2,
+        "similarity": 0.7249
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 3,
+        "similarity": 0.7197
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 3,
+        "similarity": 0.7065
+      }
+    ],
+    "retrieval_latency_ms": 132.18,
+    "total_latency_s": 1.67,
+    "memory_rss_mb": 501.5
+  },
+  {
+    "test_id": "TEST B",
+    "category": "Hardware & Component Specification",
+    "question": "Which motors are used in the agricultural UAV described in the documents?",
+    "expected_answerability": "Supported",
+    "rationale": "Directly documented in Table 3.1: Hobbywing X11 Plus 85kv 11118 motors.",
+    "answer": "The agricultural UAV described in the documents utilizes **Hobbywing X11 Plus 85kv 11118 motors**. Specifically, the system design incorporates four of these motors to power the aircraft.\n\nThis specification is explicitly listed in the \"System Material List\" (Table 3.1) under Item No. 2 in the \"Embedded System Design and Implementation for a Heavy lift Agricultural UAV\" document (Page 3). The document does not provide additional technical specifications for the motors beyond the model name, KV rating, and size.",
+    "sources": [
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 3,
+        "similarity": 0.6379
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 9,
+        "similarity": 0.6083
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 2,
+        "similarity": 0.6005
+      }
+    ],
+    "retrieval_latency_ms": 22.44,
+    "total_latency_s": 1.64,
+    "memory_rss_mb": 501.5
+  },
+  {
+    "test_id": "TEST C",
+    "category": "Functional Electronics Explanation",
+    "question": "What is the role of an ESC in a drone?",
+    "expected_answerability": "Supported",
+    "rationale": "Covered in products_and_solutions_for_drones.pdf (p. 3) and SECA4003.pdf (p. 38, 85).",
+    "answer": "Based on the provided documents, the Electronic Speed Controller (ESC) serves as a critical interface between the drone's flight control system and its electric motors. Its primary role is to control the electric motors using sophisticated algorithms. This control allows for extremely precise regulation of the motor's rotation speed, which is essential for maintaining stability and executing specific flight maneuvers.\n\nFurthermore, the ESC plays a significant role in power efficiency. By managing the motor operation effectively, it helps extend the overall battery life of the drone. In a typical drone architecture, there is usually one ESC dedicated to each motor, ensuring that each propulsion unit is independently and accurately managed.",
+    "sources": [
+      {
+        "source": "products_and_solutions_for_drones.pdf",
+        "page": 3,
+        "similarity": 0.6006
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 85,
+        "similarity": 0.5942
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 38,
+        "similarity": 0.5782
+      }
+    ],
+    "retrieval_latency_ms": 21.38,
+    "total_latency_s": 2.85,
+    "memory_rss_mb": 501.7
+  },
+  {
+    "test_id": "TEST D",
+    "category": "Corpus Coverage Inquiry",
+    "question": "What do the documents say about drone electronics?",
+    "expected_answerability": "Supported",
+    "rationale": "Covered as course curriculum unit SECA4003 (Units 1 & 5) and ST products overview.",
+    "answer": "The provided documents identify \"Drone Electronics\" as a specific academic unit (SECA4003) within the Department of Electronics and Communication Engineering at the School of Electrical and Electronics. The course material is structured into multiple units, with the context explicitly referencing **Unit 1** (Page 86 of the PDF, labeled as Unit 1 in the header) and **Unit 5** (Page 86 of the PDF, labeled as Unit 5 in the header). This indicates that drone electronics is a comprehensive subject covered across multiple modules in the curriculum.\n\nAdditionally, there is a separate document titled **\"Products and solutions for Drones\"** (Page 1), which suggests a focus on practical applications and commercial or technical solutions related to drone technology. However, the provided context for this document does not include specific details about the products or solutions themselves, only the title.\n\nIn summary, the documents establish that drone electronics is a formalized area of study (SECA4003) with distinct units of instruction, and there is associated material on practical drone products and solutions, though specific technical details or definitions of drone electronics are not present in the provided text snippets.",
+    "sources": [
+      {
+        "source": "products_and_solutions_for_drones.pdf",
+        "page": 1,
+        "similarity": 0.6611
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 1,
+        "similarity": 0.6556
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 86,
+        "similarity": 0.6502
+      }
+    ],
+    "retrieval_latency_ms": 20.13,
+    "total_latency_s": 2.9,
+    "memory_rss_mb": 502.0
+  },
+  {
+    "test_id": "TEST E",
+    "category": "General Engineering Definition with Application Bridge",
+    "question": "What do you mean by electronics?",
+    "expected_answerability": "Conceptual Definition + Grounded Application",
+    "rationale": "Broad engineering term. Requires general standard definition + grounding in SECA4003 PCBA/hardware.",
+    "answer": "**General Definition**\nElectronics is the branch of physics and engineering that deals with the control of electron flow in circuits, typically using semiconductor devices such as transistors and diodes. It involves the design, construction, and application of circuits and systems that process information, power, or signals.\n\n**Application in Indexed Documents**\nIn the context of the provided documents, specifically **SECA4003.pdf**, electronics is instantiated through the study of **Drone Electronics** (Unit 5). The documents define the electronic hardware of a drone system as a **PCBA (Printed Circuit Board Assembly)**. This hardware is described as a multilayer PCB that accommodates a **SOC (System on a Chip)** and various subsystem components, which are interconnected via copper traces or physical wires (SECA4003.pdf, Page 3). The course material emphasizes that a flawless drone system design requires a perfect balance between this electronic hardware, software, and mechanical elements.",
+    "sources": [
+      {
+        "source": "SECA4003.pdf",
+        "page": 3,
+        "similarity": 0.48
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 86,
+        "similarity": 0.477
+      },
+      {
+        "source": "SECA4003.pdf",
+        "page": 1,
+        "similarity": 0.4758
+      }
+    ],
+    "retrieval_latency_ms": 10.87,
+    "total_latency_s": 3.91,
+    "memory_rss_mb": 502.1
+  },
+  {
+    "test_id": "TEST F",
+    "category": "Out-of-Domain Unanswerable Query",
+    "question": "What is the ideal temperature for brewing coffee?",
+    "expected_answerability": "Refusal (Out of Domain)",
+    "rationale": "Coffee brewing is completely absent from the industrial engineering corpus. Must refuse with empty citations.",
+    "answer": "The provided technical documents do not contain information relevant to this question. The knowledge base is focused on industrial UAV systems, drone electronics, robotics, avionics, and embedded automation.",
+    "sources": [],
+    "retrieval_latency_ms": 19.73,
+    "total_latency_s": 0.01,
+    "memory_rss_mb": 502.2
+  },
+  {
+    "test_id": "TEST G",
+    "category": "Absent In-Domain Specification",
+    "question": "What is the maximum underwater depth rating of the robotic submersible pressure hull?",
+    "expected_answerability": "Refusal (Absent Specification)",
+    "rationale": "Submersible depth specifications are absent from aerial UAV manuals. Must refuse without hallucinating.",
+    "answer": "The provided technical documents do not contain information relevant to this question. The knowledge base is focused on industrial UAV systems, drone electronics, robotics, avionics, and embedded automation.",
+    "sources": [],
+    "retrieval_latency_ms": 15.35,
+    "total_latency_s": 0.01,
+    "memory_rss_mb": 502.6
+  },
+  {
+    "test_id": "TEST H (Partial)",
+    "category": "Partially Answerable Query",
+    "question": "What are the battery specifications and maximum recharge cycles of the heavy-lift agricultural UAV?",
+    "expected_answerability": "Partially Answerable",
+    "rationale": "Battery capacity and configuration (2x 6S 20000mAh 25C LiPo, 44.4V) are documented, but cycle lifespan is omitted.",
+    "answer": "Based on the provided document context, the heavy-lift agricultural UAV utilizes a **12s battery configuration** created by connecting two **6s 20000mAh 25c LiPo batteries** in series. The document specifies that a single cell has a nominal voltage of 3.7V and a full charge voltage of 4.2V. Consequently, the total nominal voltage for the 12s configuration is calculated as **44.4V** (12s x 3.7V).\n\nRegarding the maximum recharge cycles, the indexed materials **do not contain** this information. The provided text details the battery capacity, voltage, discharge rate (25c), and configuration, but it does not specify the cycle life or maximum recharge limits for the LiPo batteries.",
+    "sources": [
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 6,
+        "similarity": 0.6029
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 3,
+        "similarity": 0.5323
+      },
+      {
+        "source": "Embedded System Design and Implementation for a Heavy lift Agricultural UAV.pdf",
+        "page": 2,
+        "similarity": 0.528
+      }
+    ],
+    "retrieval_latency_ms": 15.28,
+    "total_latency_s": 2.22,
+    "memory_rss_mb": 503.1
+  }
+]

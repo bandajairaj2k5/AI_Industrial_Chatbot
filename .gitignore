@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.token
+!.env.example
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+ENV/
+
+# Logs and temporary files
+*.log
+*.tmp
+scratch_*.txt
+
+# Local backups and scratch scripts
+backups_*/
+scratch/
+
